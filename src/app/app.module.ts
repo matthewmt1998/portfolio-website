@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { AppRoot } from './app-root/app.root';
-import { ToolbarComponent } from './toolbar/toolbar.component';
+import { AppRoot } from './components/app-root/app.root';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import { MatSliderModule } from '@angular/material/slider';
-
+import { MaterialModule } from './modules/material/material.module'
 
 @NgModule({
   declarations: [
@@ -17,8 +15,7 @@ import { MatSliderModule } from '@angular/material/slider';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatSliderModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppRoot]
