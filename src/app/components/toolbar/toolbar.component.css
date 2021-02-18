@@ -1,3 +1,6 @@
-.spacer {
-    flex: 1 1 auto;
+  img {
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+    padding-right: 10px;
   }
