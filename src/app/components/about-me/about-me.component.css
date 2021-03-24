@@ -1,3 +1,10 @@
-.card {
+.about-me-card {
     margin: auto;
+    max-width: 500px;
   }
+
+.wave-img {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}

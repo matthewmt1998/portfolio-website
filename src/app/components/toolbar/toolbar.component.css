@@ -5,6 +5,9 @@ img {
   padding-right: 10px;
 }
 
+.toolbar {
+  margin-bottom: 20px;
+}
 .spacer {
   flex: 1 1 auto;
 }
