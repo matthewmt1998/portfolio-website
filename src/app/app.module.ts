@@ -6,12 +6,14 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { WorkHistoryComponent } from './components/work-history/work-history.component';
 
 @NgModule({
   declarations: [
     AppRoot,
     ToolbarComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    WorkHistoryComponent
   ],
   imports: [
     BrowserModule,
