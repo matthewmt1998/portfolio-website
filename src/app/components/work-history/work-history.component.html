@@ -1,1 +1,32 @@
-<p>work-history works!</p>
+<mat-card class="work-history-card">
+    <mat-card-header>
+      <mat-card-title>Work History</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-vertical-stepper>
+            <ng-template matStepperIcon="number">
+                <mat-icon>work</mat-icon>
+            </ng-template>
+            <ng-template matStepperIcon="edit">
+                <mat-icon>work_outline</mat-icon>
+            </ng-template>
+            <ng-template matStepperIcon="done">
+                <mat-icon>work_outline</mat-icon>
+            </ng-template>
+
+
+            <mat-step>
+                <ng-template matStepLabel>March 2021-Present - Software Engineer</ng-template>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed quam ac mi euismod suscipit. Curabitur et augue massa. Nam eu mollis augue. Mauris vehicula purus ut tellus vestibulum, hendrerit ultricies lorem cursus. Fusce sed dictum enim. Phasellus velit leo, maximus et eleifend id, auctor et est. Donec eget orci nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam pellentesque eros vel consequat dignissim.</p>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Jan 2019-March 2021 - Junior Software Engineer</ng-template>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed quam ac mi euismod suscipit. Curabitur et augue massa. Nam eu mollis augue. Mauris vehicula purus ut tellus vestibulum, hendrerit ultricies lorem cursus. Fusce sed dictum enim. Phasellus velit leo, maximus et eleifend id, auctor et est. Donec eget orci nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam pellentesque eros vel consequat dignissim.</p>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Sep 2017-Jan 2019 - Apprentice Software Engineer</ng-template>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed quam ac mi euismod suscipit. Curabitur et augue massa. Nam eu mollis augue. Mauris vehicula purus ut tellus vestibulum, hendrerit ultricies lorem cursus. Fusce sed dictum enim. Phasellus velit leo, maximus et eleifend id, auctor et est. Donec eget orci nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam pellentesque eros vel consequat dignissim.</p>
+            </mat-step>
+          </mat-vertical-stepper>
+    </mat-card-content>
+  </mat-card>
