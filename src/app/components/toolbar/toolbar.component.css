@@ -2,12 +2,12 @@ img {
   border-radius: 50%;
   height: 80%;
   width: auto;
-  padding-right: 10px;
 }
 
 .toolbar {
-  margin-bottom: 20px;
+  margin-bottom: 0.5%;
 }
+
 .spacer {
   flex: 1 1 auto;
 }
