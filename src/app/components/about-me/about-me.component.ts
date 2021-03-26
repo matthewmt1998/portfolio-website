@@ -12,4 +12,5 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  title = "About me"
 }
