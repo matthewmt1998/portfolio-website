@@ -12,6 +12,7 @@ import { WorkHistoryComponent } from './components/work-history/work-history.com
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GithubComponent } from './components/svg/github/github.component';
+import { LinkedinComponent } from './components/svg/linkedin/linkedin.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GithubComponent } from './components/svg/github/github.component';
     WorkHistoryComponent,
     ContactMeComponent,
     FooterComponent,
-    GithubComponent
+    GithubComponent,
+    LinkedinComponent
   ],
   imports: [
     BrowserModule,
