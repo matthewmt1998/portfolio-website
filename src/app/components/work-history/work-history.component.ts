@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
+import { STEPPERICONS } from './stepper-icons'
+import { JOBS } from './jobs'
 
 @Component({
   selector: 'work-history',
@@ -22,15 +24,3 @@ export class WorkHistoryComponent implements OnInit {
 
 
 }
-
-const STEPPERICONS = [
-  { stepperStatus: "number", icon: 'work' },
-  { stepperStatus: "edit", icon: 'work_outline' },
-  { stepperStatus: "done", icon: 'work_outline' }
-]
-
-const JOBS = [
-  { timeInJobAndJobTitle: "March 2021-Present - Software Engineer", content: 'Superman', img: "assets/img/waterslogo.png" },
-  { timeInJobAndJobTitle: "Jan 2019-March 2021 - Junior Software Engineer", content: 'Batman', img: "assets/img/waterslogo.png" },
-  { timeInJobAndJobTitle: "Sep 2017-Jan 2019 - Apprentice Software Engineer", content: 'BatGirl', img: "assets/img/mdlogo.png" }
-];
