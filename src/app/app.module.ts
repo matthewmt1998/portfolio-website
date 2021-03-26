@@ -10,6 +10,7 @@ import { MaterialModule } from './modules/material/material.module';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { WorkHistoryComponent } from './components/work-history/work-history.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
     ToolbarComponent,
     AboutMeComponent,
     WorkHistoryComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
