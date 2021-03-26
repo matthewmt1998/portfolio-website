@@ -15,12 +15,13 @@
         </mat-form-field>
         <mat-form-field>
           <textarea matInput [formControl]="message" maxlength="256" placeholder="Your Message" required></textarea>
-          <mat-icon matSuffix>save</mat-icon>
+          <mat-icon matSuffix>message</mat-icon>
         </mat-form-field>
         <button mat-raised-button [disabled]="isLoading" class="submit" color="primary">
           Send Now
           <mat-icon matSuffix>send</mat-icon>
         </button>
+        <input [formControl]="honeypot" class="hidden" type="text" />
           <div [ngClass]="!submitted? 'hidden' : 'visible'">
           <span>{{responseMessage}}</span>
           </div>
