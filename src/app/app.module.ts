@@ -11,6 +11,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { WorkHistoryComponent } from './components/work-history/work-history.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { GithubComponent } from './components/svg/github/github.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutMeComponent,
     WorkHistoryComponent,
     ContactMeComponent,
-    FooterComponent
+    FooterComponent,
+    GithubComponent
   ],
   imports: [
     BrowserModule,
