@@ -4,14 +4,8 @@
     </mat-card-header>
     <mat-card-content>
         <mat-vertical-stepper>
-            <ng-template matStepperIcon="number">
-                <mat-icon>work</mat-icon>
-            </ng-template>
-            <ng-template matStepperIcon="edit">
-                <mat-icon>work_outline</mat-icon>
-            </ng-template>
-            <ng-template matStepperIcon="done">
-                <mat-icon>work_outline</mat-icon>
+            <ng-template *ngFor="let icon of steppericons" matStepperIcon="{{icon.stepperStatus}}">
+                <mat-icon>{{icon.icon}}</mat-icon>
             </ng-template>
             <mat-step *ngFor="let job of jobs">
                 <ng-template matStepLabel>{{job.timeInJobAndJobTitle}}</ng-template>
