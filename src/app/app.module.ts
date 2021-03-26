@@ -13,6 +13,7 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
 import { FooterComponent } from './components/footer/footer.component';
 import { GithubComponent } from './components/svg/github/github.component';
 import { LinkedinComponent } from './components/svg/linkedin/linkedin.component';
+import { TwitterComponent } from './components/svg/twitter/twitter.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LinkedinComponent } from './components/svg/linkedin/linkedin.component'
     ContactMeComponent,
     FooterComponent,
     GithubComponent,
-    LinkedinComponent
+    LinkedinComponent,
+    TwitterComponent
   ],
   imports: [
     BrowserModule,
