@@ -3,5 +3,27 @@
       <mat-card-title>{{title}}</mat-card-title>
     </mat-card-header>
     <mat-card-content>
+      <p>{{content}}</p>
+      <form [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+          <input matInput [formControl]="name" placeholder="Name" required />
+          <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput  [formControl]="email" placeholder="Enter your email" required />
+          <mat-icon matSuffix>drafts</mat-icon>
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput [formControl]="message" maxlength="256" placeholder="Your Message" required></textarea>
+          <mat-icon matSuffix>save</mat-icon>
+        </mat-form-field>
+        <button mat-raised-button [disabled]="isLoading" class="submit" color="primary">
+          Send Now
+          <mat-icon matSuffix>send</mat-icon>
+        </button>
+          <div [ngClass]="!submitted? 'hidden' : 'visible'">
+          <span>{{responseMessage}}</span>
+          </div>
+      </form>
     </mat-card-content>
   </mat-card>
