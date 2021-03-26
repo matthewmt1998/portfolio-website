@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { WorkHistoryComponent } from './components/work-history/work-history.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
     AppRoot,
     ToolbarComponent,
     AboutMeComponent,
-    WorkHistoryComponent
+    WorkHistoryComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
