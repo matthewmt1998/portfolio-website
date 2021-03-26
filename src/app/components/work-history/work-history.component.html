@@ -16,6 +16,7 @@
             <mat-step *ngFor="let job of jobs">
                 <ng-template matStepLabel>{{job.timeInJobAndJobTitle}}</ng-template>
                 <p>{{job.content}}</p>
+                <img *ngIf="job.img" mat-card-image class="job-img" src="{{job.img}}" alt="Photo to job's brand">
             </mat-step>
           </mat-vertical-stepper>
     </mat-card-content>
