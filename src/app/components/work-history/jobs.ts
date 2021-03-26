@@ -1,7 +1,7 @@
 import { Job } from './job'
 
 export const JOBS: Job[] = [
-    { timeInJobAndJobTitle: "March 2021-Present - Software Engineer", content: 'Superman', img: "assets/img/waterslogo.png" },
-    { timeInJobAndJobTitle: "Jan 2019-March 2021 - Junior Software Engineer", content: 'Batman', img: "assets/img/waterslogo.png" },
-    { timeInJobAndJobTitle: "Sep 2017-Jan 2019 - Apprentice Software Engineer", content: 'BatGirl', img: "assets/img/mdlogo.png" }
+    { timeInJobAndJobTitle: "March 2021-Present - Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/waterslogo.png" },
+    { timeInJobAndJobTitle: "Jan 2019-March 2021 - Junior Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/waterslogo.png" },
+    { timeInJobAndJobTitle: "Sep 2017-Jan 2019 - Apprentice Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/mdlogo.png" }
   ];

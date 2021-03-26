@@ -13,5 +13,5 @@ export class AboutMeComponent implements OnInit {
   }
 
   title = "About me"
-  content = "ABOUT ME INFO "
+  content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis."
 }
