@@ -1,7 +1,31 @@
 import { Job } from './job'
 
 export const JOBS: Job[] = [
-    { timeInJobAndJobTitle: "March 2021-Present - Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/waterslogo.png" },
-    { timeInJobAndJobTitle: "Jan 2019-March 2021 - Junior Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/waterslogo.png" },
-    { timeInJobAndJobTitle: "Sep 2017-Jan 2019 - Apprentice Software Engineer", content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar sapien in nisi lobortis, nec volutpat enim suscipit. Sed ac malesuada dolor. Duis iaculis leo elit, et egestas sem mollis nec. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio enim. Nam a sodales turpis.', img: "assets/img/mdlogo.png" }
-  ];
+  {
+    jobTitleAndTimeInJob: "Software Engineer - March 2021 - Present",
+    keypoints: [
+      'Work with technologies like Gradle to decrease build times and speedup developer feedback loop',
+      'Develop a cloud based build solution',
+      'Provide support to other software engineers to spread knowledge'
+    ],
+    img: "assets/img/waterslogo.png"
+  },
+  {
+    jobTitleAndTimeInJob: "Junior Software Engineer - Jan 2019 - March 2021",
+    keypoints: [
+      'Take on ownership of a application which has global impact',
+      'Maximise test coverage for microservice by writing end-to-end tests using specflow',
+      'Develop features for multiple functional areas'
+    ],
+    img: "assets/img/waterslogo.png"
+  },
+  {
+    jobTitleAndTimeInJob: "Apprentice Software Engineer - Sep 2017 - Jan 2019",
+    keypoints: [
+      'Became certififed in C++',
+      'Learned about the Overall Software development Lifecycle',
+      'Worked with development scientists to develop useful features for mass spec software.'
+    ],
+    img: "assets/img/mdlogo.png"
+  }
+];
