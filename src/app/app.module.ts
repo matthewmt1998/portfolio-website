@@ -15,6 +15,7 @@ import { GithubComponent } from './components/svg/github/github.component';
 import { LinkedinComponent } from './components/svg/linkedin/linkedin.component';
 import { TwitterComponent } from './components/svg/twitter/twitter.component';
 import { PersonalInterestsComponent } from './components/personal-interests/personal-interests.component';
+import { InstagramComponent } from './components/svg/instagram/instagram.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PersonalInterestsComponent } from './components/personal-interests/pers
     GithubComponent,
     LinkedinComponent,
     TwitterComponent,
-    PersonalInterestsComponent
+    PersonalInterestsComponent,
+    InstagramComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'link-instagram',
+  templateUrl: './instagram.component.html',
+  styleUrls: ['./instagram.component.css']
+})
+export class InstagramComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
