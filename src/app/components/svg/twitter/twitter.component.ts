@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'link-twitter',
+  selector: 'app-link-twitter',
   templateUrl: './twitter.component.html',
   styleUrls: ['./twitter.component.css']
 })

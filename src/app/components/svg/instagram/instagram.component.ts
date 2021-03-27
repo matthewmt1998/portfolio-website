@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'link-instagram',
+  selector: 'app-link-instagram',
   templateUrl: './instagram.component.html',
   styleUrls: ['./instagram.component.css']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'link-linkedin',
+  selector: 'app-link-linkedin',
   templateUrl: './linkedin.component.html',
   styleUrls: ['./linkedin.component.css']
 })

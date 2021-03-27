@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'link-github',
+  selector: 'app-link-github',
   templateUrl: './github.component.html',
   styleUrls: ['./github.component.css']
 })
