@@ -22,7 +22,7 @@ export const JOBS: Job[] = [
   {
     jobTitleAndTimeInJob: 'Apprentice Software Engineer - Sep 2017 - Jan 2019',
     keypoints: [
-      'Became certififed in C++',
+      'Became certified in C++',
       'Learned about the Overall Software development Lifecycle',
       'Worked with development scientists to develop useful features for mass spec software.'
     ],
