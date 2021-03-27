@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { INTERESTS } from './interests';
 
 @Component({
-  selector: 'personal-interests',
+  selector: 'app-personal-interests',
   templateUrl: './personal-interests.component.html',
   styleUrls: ['./personal-interests.component.css']
 })

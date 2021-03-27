@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LANGUAGES } from './languages';
 
 @Component({
-  selector: 'about-me',
+  selector: 'app-about-me',
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.css']
 })

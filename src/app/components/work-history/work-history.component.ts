@@ -4,7 +4,7 @@ import { STEPPERICONS } from './stepper-icons';
 import { JOBS } from './jobs';
 
 @Component({
-  selector: 'work-history',
+  selector: 'app-work-history',
   templateUrl: './work-history.component.html',
   styleUrls: ['./work-history.component.css'],
   providers: [{
