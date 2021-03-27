@@ -4,7 +4,12 @@
     </mat-card-header>
     <img mat-card-image class="wave-img" src="assets/img/bitmojicomputerwave.png" alt="BitEmoji photo waving hello through a laptop">
     <mat-card-content>
-        <p>{{content}}</p>
+        <p>{{intro}}</p>
+        <p>{{languageIntro}}</p>
+          <ul>
+              <li *ngFor="let language of languages">{{language}}</li>
+          </ul>
+      
     </mat-card-content>
   </mat-card>
 
