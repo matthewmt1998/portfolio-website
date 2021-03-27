@@ -1,5 +1,5 @@
 export interface Job {
-    jobTitleAndTimeInJob: string;
-    keypoints: string[];
-    img : string;
-  }
+  jobTitleAndTimeInJob: string;
+  keypoints: string[];
+  img: string;
+}

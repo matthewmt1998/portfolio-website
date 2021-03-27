@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.root.html',
   styleUrls: ['./app.root.css']
 })
-export class AppRoot {}
+export class AppRootComponent{}

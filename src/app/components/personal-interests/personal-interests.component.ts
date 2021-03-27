@@ -8,13 +8,12 @@ import { INTERESTS } from './interests';
 })
 export class PersonalInterestsComponent implements OnInit {
 
+  title = 'Personal Interests';
+  content = 'When I am not coding my next project, I enjoy spending my time doing any of the following:';
+  interests = INTERESTS;
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  title = "Personal Interests"
-  content = "When I am not coding my next project, I enjoy spending my time doing any of the following:"
-  interests = INTERESTS
-
 }

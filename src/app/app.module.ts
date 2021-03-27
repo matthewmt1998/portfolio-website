@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
-import { AppRoot } from './components/app-root/app.root';
+import { AppRootComponent } from './components/app-root/app.root';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
@@ -19,7 +19,7 @@ import { InstagramComponent } from './components/svg/instagram/instagram.compone
 
 @NgModule({
   declarations: [
-    AppRoot,
+    AppRootComponent,
     ToolbarComponent,
     AboutMeComponent,
     WorkHistoryComponent,
@@ -41,6 +41,6 @@ import { InstagramComponent } from './components/svg/instagram/instagram.compone
     MaterialModule
   ],
   providers: [],
-  bootstrap: [AppRoot]
+  bootstrap: [AppRootComponent]
 })
 export class AppModule { }
