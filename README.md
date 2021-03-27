@@ -1,7 +1,23 @@
-# portfolio-website
-Personal portfolio website built with angular.
+<div align="center">
+  <img alt="Logo" src="https://github.com/matthewmt1998/portfolio-website/blob/main/src/assets/img/bitmojiwave.png?raw=true" width="70" />
+</div>
+<h1 align="center">
+  matthew-taylor.net
+</h1>
+<p align="center">
+This project is hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/matthew-taylor-personal-website/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/7f27cbc5-0a67-401e-aaf9-d40e0b42cc42/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.
+
+## Installation
+
+Run `npm install` in the root directory of the project to install required node_modules 
 
 ## Development server
 
