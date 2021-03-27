@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GithubComponent } from './components/svg/github/github.component';
 import { LinkedinComponent } from './components/svg/linkedin/linkedin.component';
 import { TwitterComponent } from './components/svg/twitter/twitter.component';
+import { PersonalInterestsComponent } from './components/personal-interests/personal-interests.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TwitterComponent } from './components/svg/twitter/twitter.component';
     FooterComponent,
     GithubComponent,
     LinkedinComponent,
-    TwitterComponent
+    TwitterComponent,
+    PersonalInterestsComponent
   ],
   imports: [
     BrowserModule,
