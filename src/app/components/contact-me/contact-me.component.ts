@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -9,17 +9,17 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ContactMeComponent implements OnInit {
 
-  form: FormGroup;
-  name: FormControl = new FormControl('', [Validators.required]);
-  email: FormControl = new FormControl('', [Validators.required, Validators.email]);
-  message: FormControl = new FormControl('', [Validators.required, Validators.maxLength(256)]);
-  honeypot: FormControl = new FormControl(''); // we will use this to prevent spam
+  form: UntypedFormGroup;
+  name: UntypedFormControl = new UntypedFormControl('', [Validators.required]);
+  email: UntypedFormControl = new UntypedFormControl('', [Validators.required, Validators.email]);
+  message: UntypedFormControl = new UntypedFormControl('', [Validators.required, Validators.maxLength(256)]);
+  honeypot: UntypedFormControl = new UntypedFormControl(''); // we will use this to prevent spam
   submitted = false; // show and hide the success message
   isLoading = false; // disable the submit button if we're loading
   responseMessage = 'Hello! I see you peeping'; // the response message to show to the user
   title = 'Contact me';
   content = 'Have a question or want to work together?';
-  constructor(private formBuilder: FormBuilder, private http: HttpClient) {
+  constructor(private formBuilder: UntypedFormBuilder, private http: HttpClient) {
     this.form = this.formBuilder.group({
       name: this.name,
       email: this.email,
