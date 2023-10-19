@@ -2,7 +2,16 @@ import { Job } from './job';
 
 export const JOBS: Job[] = [
   {
-    jobTitleAndTimeInJob: 'Software Engineer - March 2021 - Present',
+    jobTitleAndTimeInJob: 'Senior Software Engineer - Oct 2023 - Present',
+    keypoints: [
+      'Work within a team to drive development of multiple applications CI/CD',
+      'Improvement of selenium specflow tests framework',
+      'Provide support to other software engineers'
+    ],
+    img: 'assets/img/waters2023logo.png'
+  },
+  {
+    jobTitleAndTimeInJob: 'Software Engineer - March 2021 - Oct 2023',
     keypoints: [
       'Work with technologies like Gradle to decrease build times and speedup developer feedback loop',
       'Develop a cloud based build solution',
