@@ -1,0 +1,22 @@
+version: 1
+instructions:
+  - scope: repository
+    title: "Repository guidance for GitHub Copilot"
+    description: |
+      This Angular portfolio site is built with Angular 21 and a component-driven structure.
+      Keep changes small and aligned with the existing codebase in `src/app/components`.
+      Prefer Angular CLI conventions, TypeScript, and minimal additional dependencies.
+      Focus on preserving accessibility, responsive layout, and the current Material-based styling.
+  - scope: repository
+    title: "Common developer tasks"
+    description: |
+      Use Copilot to help with tasks such as adding a new component, improving form validation,
+      updating the Contact Me form, enhancing the work history section, or refining the toolbar.
+      Avoid introducing a backend or external state management library unless explicitly needed.
+  - scope: repository
+    title: "Angular upgrade skill"
+    description: |
+      Help with upgrading the Angular version and CLI in this repo.
+      The repository currently uses Angular 21.2.0 and Angular CLI 21.2.0.
+      Prioritize safe upgrade steps, review dependency compatibility, and recommend the standard
+      `ng update` workflow for this Angular portfolio app.
